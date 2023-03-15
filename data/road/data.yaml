@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cover', 'point']
+
+roboflow:
+  workspace: project
+  project: road-cdtsn
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/project/road-cdtsn/1
